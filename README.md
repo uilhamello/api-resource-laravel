@@ -1,4 +1,4 @@
-Let's improve our Json response with API Resource :smile:
+<h1>Let's improve our Json response with API Resource </h1>
 
 This tutorial is a increment of tutorials:
 - "crud-api-by-laravel" (https://github.com/uilhamello/crud-api-by-laravel)
