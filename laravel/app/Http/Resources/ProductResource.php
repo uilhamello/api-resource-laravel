@@ -14,6 +14,14 @@ class ProductResource extends JsonResource
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+
+        if($request->get('show') ==='all'){
+            return parent::toArray($request);
+        }
+        else{
+            return [
+                "name" => $this->name,
+            ];    
+        }
     }
 }
